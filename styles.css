@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header header header"
+    ". main ."
+    "footer footer footer";
+}
+
+header{
+    background-color: salmon;
+    display: flex;
+    grid-area: header;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.quad-um{
+    background-color: blanchedalmond;
+    border-color: black;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    display: flex;
+    grid-area: quad-um;
+    /* margin: 0 0 0 50%;    */
+    padding: 30px;
+}
+
+.quad-dois{
+    grid-area: quad-dois;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: black;
+    /* width: 50% */
+}
+
+.quad-tres{
+    grid-area: quad-tres;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: black;
+    /* margin: 0 50% 0 0;    */
+    padding: 30px;
+}
+
+.quad-quatro{
+    grid-area: quad-quatro;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: black;
+    /* margin: 0 0 0 50%;    */
+    padding: 30px;
+}
+
+.quad-cinco{
+    grid-area: quad-cinco;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: black;
+    /* width: 50%; */
+}
+
+.quad-seis{
+    grid-area: quad-seis;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: black;
+    /* margin: 0 50% 0 0;    */
+    padding: 30px;
+}
+
+.quad-sete{
+    grid-area: quad-sete;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color: black;
+    /* margin: 0 0 0 50%;    */
+    padding: 30px;
+}
+
+.quad-oito{
+    grid-area: quad-oito;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color: black;
+    /* width: 50%; */
+}
+
+.quad-nove{
+    grid-area: quad-nove;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+    /* margin: 0 50% 0 0;    */
+    padding: 30px;
+    
+}
+
+footer{
+    background-color: aquamarine;
+    display: flex;
+    grid-area: footer;
+    padding: 30px;
+}
+
+/* main div .quad-um{
+    
+} */
+
